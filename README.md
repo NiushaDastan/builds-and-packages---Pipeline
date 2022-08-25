@@ -39,8 +39,17 @@ The package copy on AWS as an S3 bucket, when something changes would be committ
 
 aws s3 cp stage/platform-technical-$(version).tar.gz s3://platform-technical.
 
-To make stage folder with make stage.
+$ <make stage> to make stage folder with.
 
+$ <make package> to make package.
+
+$ <make clean> to data cleaning.
+
+Improvement:
+
+You can use <test> before <publish> to ensure the correctness of the functionality.
+
+          
 
 # Use
 
@@ -52,13 +61,18 @@ aws configure:
 
 2. AWS Secret Access Key [****************]:
 
-3. Default region name [sydney]: sydney
+3. Default region name [None]: ap-southeast-2
 
-4. Default output format [json]: json
+4. Default output format [none]: json
 
 Note:
 
 Make sure you replace the parameter value with your aws Key and region!!!
+
+Risk Management:
+
+Using <SSH> instead of 'Credentials' for more security.
+
 
 # Creating a Docker image for our app (optional)
 
