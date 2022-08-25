@@ -14,7 +14,4 @@ jobs:
         run: |
           make deps
           make package
-          ls stage/
-          echo "checking stage folder"
-          aws s3 ls
           make publish
