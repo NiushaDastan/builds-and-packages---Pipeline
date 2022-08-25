@@ -19,4 +19,4 @@ deps: stage
 	pip3 install -r requirements.txt
 
 publish:
-	aws s3 cp stage/platform-technical-$(version).tar s3://platform-technical
+	aws s3 cp stage/platform-technical-$(version).tar.gz s3://platform-technical
