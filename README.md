@@ -39,11 +39,11 @@ The package copy on AWS as an S3 bucket, when something changes would be committ
 
 aws s3 cp stage/platform-technical-$(version).tar.gz s3://platform-technical.
 
-$ ''make stage' to make stage folder with.
+'make stage' to make stage folder with.
 
-$ 'make package' to make package.
+'make package' to make package.
 
-$ 'make clean' to data cleaning.
+'make clean' to data cleaning.
 
 Improvement:
 
