@@ -71,7 +71,7 @@ Make sure you replace the parameter value with your aws Key and region!!!
 
 Risk Management:
 
-Using <SSH> instead of 'Credentials' for more security.
+Using 'ssh' instead of 'Credentials' for more security.
 
 
 # Creating a Docker image for our app (optional)
