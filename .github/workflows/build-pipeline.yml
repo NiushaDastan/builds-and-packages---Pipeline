@@ -13,4 +13,6 @@ jobs:
         run: |
           make deps
           make package
+          ls stage/
+          echo "checking stage folder"
           make publish
