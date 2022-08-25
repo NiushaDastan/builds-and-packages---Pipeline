@@ -15,4 +15,5 @@ jobs:
           make package
           ls stage/
           echo "checking stage folder"
+          aws s3 ls
           make publish
