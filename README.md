@@ -47,7 +47,7 @@ $ <make clean> to data cleaning.
 
 Improvement:
 
-You can use <test> before <publish> to ensure the correctness of the functionality.
+You can use 'test' before 'publish' to ensure the correctness of the functionality.
 
           
 
